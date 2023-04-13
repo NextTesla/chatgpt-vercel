@@ -50,7 +50,8 @@ export default function SettingAction(props: {
               }}
             />
           </SettingItem>
-          <SettingItem
+
+          {/* <SettingItem
             icon="i-carbon:machine-learning-model"
             label="OpenAI 模型"
           >
@@ -69,7 +70,8 @@ export default function SettingAction(props: {
               <option value="gpt-4">gpt-4(8k)</option>
               <option value="gpt-4-32k">gpt-4(32k)</option>
             </select>
-          </SettingItem>
+          </SettingItem> */}
+
           <SettingItem icon="i-carbon:user-online" label="系统角色指令">
             <input
               type="text"
